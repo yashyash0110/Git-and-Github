@@ -24,11 +24,11 @@
 `git add <files>` : Moves the untracked files to the staging area. 
 - To add all the files no matter what, you can do `git add .` 
  
-`git commit -m <messages>` : To commit the files that are in the staging area.
+`git commit -m <message>` : To commit the files that are in the staging area.
 - Commit needs a message.
 - If commit message is not provided, a vim code editor will be opened and you have to write a message there.
 
-**git log** : Gives the details of commit ID, Author, date and time of commit, commit message. 
+`git log` : Gives the details of commit ID, Author, date and time of commit, commit message. 
 - Each commit ID is differentiated by the initial few characters (SHA)
  `git log --oneline` : Less detailed
 
