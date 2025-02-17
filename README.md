@@ -1,3 +1,3 @@
 # Git-and-Github
 
-**This repo tracks my learning of git and github**
+**This repo tracks my learnings on git and github**
