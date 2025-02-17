@@ -8,7 +8,7 @@
 
 **git init** : Intializes the git software.
    - This lets the current directory to be tracked by git.
-   - This command is run once in the project directorty and the intilization happens. You don't need to run it again.
+   - This command is run once in the project directorty and the intialization happens. You don't need to run it again.
    - A hidden folder **.git** gets created to keep history of all the files and folders.
  
    
@@ -16,4 +16,6 @@
 
 
 ![github_flow](https://github.com/user-attachments/assets/ec6556c6-39b6-4b1f-8ea1-6b24bacca25e)
+
+
 
