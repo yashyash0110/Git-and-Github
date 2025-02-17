@@ -48,3 +48,10 @@ A **Git configuration file** stores settings that control Git’s behavior for a
 - Set username : `git config --global user.name "Your name"`
 - Set email : `git config --global user.email "you@example.com"`
 
+Enviorment variables file(**.env**) holds all the sensitive information. 
+
+**.gitignore** 
+- This is read by the git itself. This file has to be created by the user.
+- If you don't want certain files or folders to be tracked, you can list those files in the .gitignore file.
+*You can use .gitignore generator to know which files and folders should be listed according to your project*
+
