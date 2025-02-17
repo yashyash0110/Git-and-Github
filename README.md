@@ -19,7 +19,7 @@
 
 **Staging area** is like a intermediate stage before you make any commit. 
 
-## WRITE ADD COMMIT
+**WRITE ADD COMMIT** is the flow
 
 `git add <files>` : Moves the untracked files to the staging area. 
 - To add all the files no matter what, you can do `git add .` 
