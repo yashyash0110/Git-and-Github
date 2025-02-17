@@ -6,31 +6,31 @@
 
 **Commit** is like a check point
 
-**git init** : Intializes the git software.
+`git init` : Intializes the git software.
    - This lets the current directory to be tracked by git.
    - This command is run once in the project directorty and the intialization happens. You don't need to run it again.
    - A hidden folder **.git** gets created to keep history of all the files and folders.
  
    
-**git status** : To check the status of the git software.
+`git status` : To check the status of the git software.
 
 
 ![github_flow](https://github.com/user-attachments/assets/ec6556c6-39b6-4b1f-8ea1-6b24bacca25e)
 
 **Staging area** is like a intermediate stage before you make any commit. 
 
-**WRITE ADD COMMIT**
+## WRITE ADD COMMIT
 
-**git add <files>** : Moves the untracked files to the staging area. 
+`git add <files>` : Moves the untracked files to the staging area. 
 - To add all the files no matter what, you can do `git add .` 
  
-**git commit -m <messages>** : To commit the files that are in the staging area.
+`git commit -m <messages>` : To commit the files that are in the staging area.
 - Commit needs a message.
 - If commit message is not provided, a vim code editor will be opened and you have to write a message there.
 
 **git log** : Gives the details of commit ID, Author, date and time of commit, commit message. 
 - Each commit ID is differentiated by the initial few characters (SHA)
-**git log --oneline** : Less detailed
+ `git log --oneline` : Less detailed
 
 #### Atomic Commits (How to write a commit message?)
 - Keep commits centric to one feature or fix. Focus on one thing.
