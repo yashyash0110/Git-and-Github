@@ -30,7 +30,7 @@
 
 `git log` : Gives the details of commit ID, Author, date and time of commit, commit message. 
 - Each commit ID is differentiated by the initial few characters (SHA)
- `git log --oneline` : Less detailed
+- `git log --oneline` : Less detailed
 
 #### Atomic Commits (How to write a commit message?)
 - Keep commits centric to one feature or fix. Focus on one thing.
