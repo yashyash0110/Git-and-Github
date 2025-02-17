@@ -24,7 +24,7 @@
 **git add <files>** : Moves the untracked files to the staging area. 
 - To add all the files no matter what, you can do `git add .` 
  
-**git commit -m "<message>"** : To commit the files that are in the staging area.
+**git commit -m <messages>** : To commit the files that are in the staging area.
 - Commit needs a message.
 - If commit message is not provided, a vim code editor will be opened and you have to write a message there.
 
@@ -38,12 +38,12 @@
 
 A **Git configuration file** stores settings that control Git’s behavior for a user, repository, or system.
 
-###### Types of Git Configurations:
+#### Types of Git Configurations:
 - System-wide (**/etc/gitconfig**) - Applies to all users on the system
 - User-level (**~/.gitconfig** or **~/.config/git/config**) - Applies to a specific user
 - Repository-specific (**.git/config** inside a repo) - Affects only that repo
 
-######## Common Commands
+#### Common Commands
 - View config : `git config --list`
 - Set username : `git config --global user.name "Your name"`
 - Set email : `git config --global user.email "you@example.com"`
